@@ -79,10 +79,10 @@ map <leader>a :call AckGrep()<CR>
 vmap <leader>a :call AckVisual()<CR>
 
 " RSpec.vim mappings
-map <leader>RT :call RunCurrentSpecFile()<CR>
-map <leader>RS :call RunNearestSpec()<CR>
-map <leader>RL :call RunLastSpec()<CR>
-map <leader>RA :call RunAllSpecs()<CR>
+map <leader>rf :call RunCurrentSpecFile()<CR>
+map <leader>rs :call RunNearestSpec()<CR>
+map <leader>rl :call RunLastSpec()<CR>
+map <leader>ra :call RunAllSpecs()<CR>
 
 " vim-go mappings
 map <leader>GT :GoTest<CR>
